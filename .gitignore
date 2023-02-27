@@ -1,2 +1,6 @@
 .ipynb_checkpoints/
 .env
+__pycache__/
+Pubsub/couponRule.json
+Pubsub/couponTarget.json
+Pubsub/cloud_function.py

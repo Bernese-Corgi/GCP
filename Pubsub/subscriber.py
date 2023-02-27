@@ -3,8 +3,9 @@ from decouple import config
 from google.cloud import pubsub_v1
 
 project_id = config('PROJECT_ID')
-topic_id = config('TOPIC_ID')
-sub_id = config('SUB_ID')
+# topic_id = config('TOPIC_ID')
+newjoin_rule_type = config('NEWJOIN_ID')
+sub_id = "holymoly"
 
 timeout = 5.0
 
