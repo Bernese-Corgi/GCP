@@ -4,3 +4,8 @@ __pycache__/
 Pubsub/couponRule.json
 Pubsub/couponTarget.json
 Pubsub/cloud_function.py
+
+# Spanner/python-spanner/
+Pubsub/basic/couponRule.json
+Pubsub/basic/couponTarget.json
+Pubsub/basic/serverApi.py
