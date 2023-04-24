@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from router import pub
+from router import pub, sub
 
 
 def start_server():
@@ -12,6 +12,12 @@ def start_server():
         tags=["publish"],
     )
 
+    app.include_router(
+        router=sub.router,
+        prefix="/sub",
+        tags=["subscribe"],
+    )
+    
     return app
 
 app = start_server()
