@@ -10,3 +10,4 @@ Pubsub/cloud_function.py
 Pubsub/basic/couponRule.json
 Pubsub/basic/couponTarget.json
 Pubsub/basic/serverApi.py
+Pubsub/with-fastapi/key.json
